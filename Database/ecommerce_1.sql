@@ -254,7 +254,7 @@ ALTER TABLE `brands`
 -- Indexes for table `card_details`
 --
 ALTER TABLE `card_details`
-  ADD PRIMARY KEY (`product_id`);
+  ADD PRIMARY KEY (`product_id`, `ip_address`);
 
 --
 -- Indexes for table `categories`
